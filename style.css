@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600;700;800&family=Ubuntu:wght@300;400;500;700&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Merriweather Sans", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 body {
   background-image: url(./Images/bg.jpg);
@@ -22,4 +25,30 @@ body {
     rgba(255, 255, 255, 0.7),
     rgba(255, 255, 255, 0.3)
   );
+}
+.HText {
+  color: #23695F;
+  font-size: 50px;
+  font-weight: 700;
+}
+.pTExt {
+  color: #7F9E85;
+  font-size: 25px;
+  text-align: justify;
+  margin: 15px 0px 75px 35px;
+}
+/* .glassHeroImage{
+  width: 18rem;
+  margin: 0 25px;
+} */
+.realTime{
+    border: solid 3px #23695F;
+    border-radius: 5px;
+    margin: 0px 3px;
+    color: #2F4858;
+}
+.countDown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
